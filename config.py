@@ -47,7 +47,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store privat
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "ThalaDev")
 #Time in seconds for message delete
-TIME = int(os.environ.get("TIME", "60"))
+TIME = int(os.environ.get("TIME", "300"))
 
 
 #Shortner (token system) 
@@ -67,7 +67,7 @@ SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "269bd24b7ea6d49e1307b13
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "120")) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "300")) # Add time in seconds
 #Tutorial video for the user of your shortner on how to download.
 TUT_VID = os.environ.get("TUT_VID","https://t.me/Demoshorts/41")
 
