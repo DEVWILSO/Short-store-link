@@ -9,7 +9,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Language : <code>Python3</code></b> 🐍\n<b> Developer : <code>@Team_MDL</code> 😼",
+            text = f"<b>○ Language : <code>Python3</code></b> 🐍\n<b> Developer : @Team_MDL_Admin_Bot</b> 😼\n<b>🥀 Powered By : @Team_MDL</b>🤍",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
